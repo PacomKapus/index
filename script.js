@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 var slides = document.querySelectorAll('.slide');
 var prevBtn = document.getElementById('prevBtn');
 var nextBtn = document.getElementById('nextBtn');
 var currentSlide = 0; 
+=======
+
+
+var slides = document.querySelectorAll('.slide');
+var prevBtn = document.getElementById('prevBtn');
+var nextBtn = document.getElementById('nextBtn');
+var currentSlide = 0;
+>>>>>>> f406da63afacf5e5ca46e5b60d7353fb742b1b9a
 
 function showSlide() {
   slides.forEach(function(slide) {
@@ -28,6 +37,13 @@ nextBtn.addEventListener('click', function() {
 
 showSlide();
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> f406da63afacf5e5ca46e5b60d7353fb742b1b9a
 document.querySelector('#sub__but').onclick = function(){
   if(document.querySelector('#sub input').value.length == 0){
       alert("Please Enter a Task")
@@ -51,3 +67,10 @@ document.querySelector('#sub__but').onclick = function(){
       }
   }
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> f406da63afacf5e5ca46e5b60d7353fb742b1b9a
